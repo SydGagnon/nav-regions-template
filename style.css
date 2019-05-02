@@ -53,6 +53,7 @@
 nav ul.t-nav {
   list-style-type: none;
 }
+/* Mobile-First */
 nav ul > li {
   display: block;
   line-height: 1.68;
@@ -61,6 +62,7 @@ nav ul > li {
 nav li.t-nav-link a {
   border-bottom: 0;
 }
+/* Nav structure vw > 715px */
 @media screen and (min-width:715px) {
   nav ul > li {
     display: inline-block;
